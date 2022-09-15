@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="content">
+                <h2 class="logo">E-Commerce</h2>
+                <form action="">
+                    <input onkeyup="SearchProduct(this)" type="search" id="search" placeholder="Search Product" />
+                </form>
+                <div class="cart-icon">
+                    <span class="count-cart-icon"></span>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="cart-shop">
+        <p class="close"><span class="fas fa-times"></span></p>
+        <h3 class="head-cart">Your Cart</h3>
+        <p class="no-product">No Product</p>
+        <div class="allProduct">
+            <!--            
+            <div class="box">
+                <img src="img/product2.jpg" alt="" />
+                <div class="text">
+                    <h4 class="name">straw bottle</h4>
+                    <p class="price">$30</p>
+                    <input type="number" value="1" min="1" id="count" />
+                </div>
+                <div class="del"><i class="fa-solid fa-trash"></i></div>
+            </div> -->
+        </div>
+        <div class="total-price">Total : <span>$300</span></div>
+        <button class="buy">Buy Now</button>
+    </section>
+    <div class="products">
+        <div class="container">
+            <h2 class="section-title">Shop Products</h2>
+            <div class="content-products">
+                <!-- <div class="product">
+                    <img src="img/product1.jpg" alt="" />
+                    <div class="text">
+                        <h3>hooded parka</h3>
+                        <p class="price">
+                            <span class="pre">$150</span> <span class="dis">$200</span>
+                        </p>
+                        <button class="addCart">Add To Cart</button>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <script src="JS/main.js"></script>
+    <!-- <script src="JS/products.json"></script> -->
+</body>
+
+</html>

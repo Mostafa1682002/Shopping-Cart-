@@ -1,0 +1,49 @@
+[{
+        "id": 0,
+        "productName": "aeroready shirt",
+        "price": 149.99,
+        "img": "img/product1.jpg"
+    },
+    {
+        "id": 1,
+        "productName": "wireless earbuds",
+        "price": 199.99,
+        "img": "img/product2.jpg"
+    },
+    {
+        "id": 2,
+        "productName": "hooded parka",
+        "price": 99.99,
+        "img": "img/product3.jpg"
+    },
+    {
+        "id": 3,
+        "productName": "straw bottle",
+        "price": 159.99,
+        "img": "img/product4.jpg"
+    },
+    {
+        "id": 4,
+        "productName": "metal sunglasses",
+        "price": 109.99,
+        "img": "img/product5.jpg"
+    },
+    {
+        "id": 5,
+        "productName": "back hat ",
+        "price": 129.99,
+        "img": "img/product6.jpg"
+    },
+    {
+        "id": 6,
+        "productName": "backpack",
+        "price": 189.99,
+        "img": "img/product7.jpg"
+    },
+    {
+        "id": 7,
+        "productName": "ultraboost 22",
+        "price": 179.99,
+        "img": "img/product8.jpg"
+    }
+]
